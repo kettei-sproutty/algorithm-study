@@ -1,0 +1,12 @@
+[package]
+name = "algorithms"
+version = "0.1.0"
+edition = "2021"
+
+[[bench]]
+name = "benchmark"
+path = "benches/benchmark.rs"
+harness = false
+
+[dev-dependencies]
+divan = "0.1.11"
